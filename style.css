@@ -23,7 +23,6 @@ h1 {
 
 .centra-titulo {
   justify-content: center;
-
   display: flex;
 }
 
@@ -132,3 +131,4 @@ button.add:active {
 #guardar:active {
   opacity: 100%;
 }
+
