@@ -34,10 +34,12 @@ span {
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .box {
-  padding: 50px;
+  display: none;
+  padding: 30px;
   border-radius: 10px;
   background: #ded8e9;
   box-shadow: 5px 5px 13px #a7a2af, -5px -5px 13px #ffffff;
@@ -45,7 +47,7 @@ span {
 }
 
 .crear {
-  padding: 50px;
+  padding: 30px;
   border-radius: 10px;
   background: #ded8e9;
   box-shadow: 5px 5px 13px #a7a2af, -5px -5px 13px #ffffff;
@@ -132,3 +134,6 @@ button.add:active {
   opacity: 100%;
 }
 
+img {
+  width:500px;
+}
