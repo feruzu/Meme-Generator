@@ -137,3 +137,14 @@ button.add:active {
 img {
   width:500px;
 }
+
+p.texto {
+  font-size: 40px;
+  text-align: center;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  font-weight: 900;
+  color: #000000;
+  margin-top: -90px;
+  cursor: move;
+}
+
