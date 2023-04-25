@@ -3,6 +3,7 @@ let descargar = document.querySelector("#guardar");
 let file = document.querySelector("#file");
 let crear = document.querySelector(".box");
 let meme = document.querySelector('#meme');
+let texto = document.querySelector('#texto');
 
 
 file.addEventListener('change', function(){
@@ -20,3 +21,16 @@ file.addEventListener('change', function(){
     }
  
 });
+
+
+add.addEventListener('click', añadirTexto);
+
+function añadirTexto(){
+    console.log(texto.value)
+
+const newElement = document.createElement("div.d");
+newElement.innerHTML = `<p class="texto">${texto.value}</p>`;
+     
+      crear.appendChild(newElement);
+    }
+
