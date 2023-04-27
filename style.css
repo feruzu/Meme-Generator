@@ -69,25 +69,6 @@ textarea {
   margin: 5px;
 }
 
-#color {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  margin: 0;
-}
-#color::-webkit-color-swatch {
-  border-radius: 10%;
-  border: none;
-}
-#color::-moz-color-swatch {
-  border: none;
-}
-
 .add {
   margin: 0;
   padding: 4px;
