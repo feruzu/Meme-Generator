@@ -5,7 +5,7 @@ html {
 
 body {
   background: #e1dcd9;
-  font-family: "Inter", sans-serif;
+  font-family: 'Lato', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,22 +35,24 @@ span {
   margin: 0 auto;
   justify-content: center;
   margin-bottom: 20px;
+  background: #e1dcd9;
+box-shadow: inset 5px 5px 10px #b4b0ae,
+            inset -5px -5px 10px #ffffff;
+            border-radius: 10px;
 }
 
 .box {
   display: none;
   padding: 30px;
   border-radius: 10px;
-  background: #ded8e9;
-  box-shadow: 5px 5px 13px #a7a2af, -5px -5px 13px #ffffff;
+ 
   margin-right: 30px;
 }
 
 .crear {
   padding: 30px;
   border-radius: 10px;
-  background: #ded8e9;
-  box-shadow: 5px 5px 13px #a7a2af, -5px -5px 13px #ffffff;
+  
 }
 
 h2 {
@@ -122,7 +124,7 @@ img {
 p.texto {
   font-size: 40px;
   text-align: center;
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  -webkit-text-stroke: 0.3px rgb(255, 255, 255);
   font-weight: 900;
   color: #000000;
   margin-top: -90px;
