@@ -11,6 +11,13 @@ body {
   align-items: center;
 }
 
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 h1 {
   color: #373234;
   text-align: center;
