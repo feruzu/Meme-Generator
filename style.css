@@ -82,14 +82,30 @@ button.add {
   cursor: pointer;
   font-weight: 600;
   display: block;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-button.add:hover {
+button#borrar {
+  font-size: 15px;
+  border: none;
+  background-color: #fda769;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 100px;
+  display: none;
+  width: 30%;
+  margin-top: -37px;
+}
+
+button.add:hover, button#borrar:hover {
   opacity: 60%;
 }
 
-button.add:active {
+button.add:active, button#borrar:active {
   opacity: 100%;
 }
 
@@ -103,7 +119,7 @@ button.add:active {
   cursor: pointer;
   font-weight: 600;
   display: block;
-  width: 50%;
+  width: 30%;
 }
 
 #guardar:hover {
@@ -116,11 +132,11 @@ button.add:active {
 
 img {
   width: 450px;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 p.texto {
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   font-weight: 900;
   color: #000000;
