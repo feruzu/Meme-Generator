@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meme Generator</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-    
-  </head>
-  <body>
-    <div class="centra-titulo">
-      <h1 class="titulo">
-        Meme <br />
-        <span>Generator</span>
-      </h1>
-    </div>
 
-    <div class="container">
-      <div class="box">
-        <img id="meme">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+
+</head>
+
+<body>
+  <div class="centra-titulo">
+    <h1 class="titulo">
+      Meme <br />
+      <span>Generator</span>
+    </h1>
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <div class="div-texto">
       </div>
-      <div class="crear">
-        <h2>Añade imagen</h2>
-        <input type="file" id="file"/>
-        <textarea placeholder="Añade el texto" id="texto"></textarea>
-        <button class="add">Aceptar</button>
-
-        <button id="guardar">Descargar</button>
-      </div>
+      <img id="meme">
     </div>
+    <div class="crear">
+      <h2>Añade imagen</h2>
+      <input type="file" id="file" />
+      <textarea placeholder="Añade el texto" id="texto"></textarea>
+      <button class="add">Aceptar</button>
 
-    <script src="app.js"></script>
-  </body>
+      <button id="guardar" onclick="guardarContenido()">Descargar</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
 </html>
